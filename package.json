@@ -1,0 +1,24 @@
+{
+  "name": "multer-gridfs",
+  "version": "0.0.1",
+  "description": "GridFS storage engine for multer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arjandepooter/multer-gridfs.git"
+  },
+  "keywords": [
+    "gridfs",
+    "multer",
+    "mongo"
+  ],
+  "author": "Arjan de Pooter <mail@arjandepooter.nl>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/arjandepooter/multer-gridfs/issues"
+  },
+  "homepage": "https://github.com/arjandepooter/multer-gridfs#readme"
+}
