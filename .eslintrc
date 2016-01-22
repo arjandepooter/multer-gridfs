@@ -1,0 +1,20 @@
+{
+	"env": {
+		"node": true,
+		"mocha": true,
+		"es6": true
+	},
+	"rules": {
+		"indent": [ 2, "tab" ],
+		"quotes": [ 2, "single" ],
+		"brace-style": [ 2, "1tbs" ],
+		"comma-style": [ 2, "last" ],
+		"new-cap": 0,
+		"no-underscore-dangle": 0,
+		"no-else-return": 1,
+		"no-param-reassign": 2,
+		"no-shadow": 0,
+		"no-mixed-spaces-and-tabs": 2,
+		"no-trailing-spaces": 2
+	}
+}
