@@ -4,7 +4,8 @@
   "description": "GridFS storage engine for multer",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha",
+    "lint": "eslint ."
   },
   "repository": {
     "type": "git",
@@ -20,5 +21,16 @@
   "bugs": {
     "url": "https://github.com/arjandepooter/multer-gridfs/issues"
   },
-  "homepage": "https://github.com/arjandepooter/multer-gridfs#readme"
+  "homepage": "https://github.com/arjandepooter/multer-gridfs#readme",
+  "devDependencies": {
+    "eslint": "^1.10.3",
+    "express": "^4.13.4",
+    "gridfs-stream": "^1.1.1",
+    "md5-file": "^2.0.4",
+    "mocha": "^2.3.4",
+    "mongodb": "^2.1.4",
+    "multer": "^1.1.0",
+    "should": "^8.1.1",
+    "supertest": "^1.1.0"
+  }
 }
