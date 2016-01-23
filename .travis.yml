@@ -9,3 +9,5 @@ node_js:
   - "5.3"
   - "5.4"
 services: mongodb
+env:
+  - NODE_ENV=test
